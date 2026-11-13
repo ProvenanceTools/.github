@@ -54,7 +54,7 @@ All of it is scoped to the assignment folder.
 | [**provenance**](https://github.com/ProvenanceTools/provenance) | The monorepo: the log format (`log-core`), the VS Code recorder, the analysis engine (`analysis-core`), the React analyzer, and the Hono + Postgres API server. |
 | [**provenance-jetbrains-recorder**](https://github.com/ProvenanceTools/provenance-jetbrains-recorder) | `provjet` — the recorder ported to JetBrains IDEs in Kotlin, producing bundles in the same format as the VS Code one. |
 | [**provenance-neovim-recorder**](https://github.com/ProvenanceTools/provenance-neovim-recorder) | `provnvim` — the recorder ported to Neovim in pure Lua, producing bundles in the same format as the VS Code one. |
-| [**provenance-jupyter-recorder**](https://github.com/El20082/provenance-jupyter-recorder) | `provjup` — *in development.* The recorder ported to JupyterLab as a TypeScript extension with a Python server extension, recording notebook cell sources and text files in the same bundle format as the VS Code one. |
+| [**provenance-jupyter-recorder**](https://github.com/ProvenanceTools/provenance-jupyter-recorder) | `provjup` — *in development.* The recorder ported to JupyterLab as a TypeScript extension with a Python server extension, recording notebook cell sources and text files in the same bundle format as the VS Code one. |
 | [**provenance-gradescope-gateway**](https://github.com/ProvenanceTools/provenance-gradescope-gateway) | `provgate` — pulls new Gradescope submissions and forwards them to a Provenance server on a schedule. A pure HTTP client of the public API. |
 
 ## Scope
